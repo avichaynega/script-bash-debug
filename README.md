@@ -19,6 +19,12 @@ sudo apt-get install valgrind
 
 ## Run-Code
 
+the format to run the script:
+
+```bash
+$BasicCheck.sh <dir path> <program> <arguments if needed>
+```
+
 For example when we run test1 
 
 ```bash
