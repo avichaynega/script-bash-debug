@@ -1,5 +1,5 @@
 #!/bin/bash
-folderName=$1
+folderName=$1 
 exeFile=$2
 shift 
 shift 
