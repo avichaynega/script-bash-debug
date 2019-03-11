@@ -1,13 +1,38 @@
-# C++ Programming Course
+# Script-bash-debug
 
-In this course we will study programming in a very difficult and complex language - C++,
-Language that includes various paradigms - procedural programming, object-oriented and functional.
-A language that requires manual management of memory resources.
+In this task, we wrote a short script in the backgammon and learned to recognize tools that helped us in DEBUG and to find a memory leak.
 
-### Work-space
+## Usage
 
-The course will train us in general skills that are essential to every programmer,
-such as working in Linux and GIT environments,
-presenting code to class, meeting deadlines and dealing with unexpected problems and changes.
+We were asked this task unlike the JAVA course, where C ++ does not have a built-in garbage collection. 
+So the programmer is the one who needs to clear the memory after use.
+And with the help of a Linux tool that helps to find memory leakage we have been able to know exactly where a leak occurred or whether we went to an undefined place.
+The tool is called [valgrind](https://en.wikipedia.org/wiki/Valgrind)
 
-## 
+## Installation
+
+How to install Valgrind:
+
+```bash
+sudo apt-get install valgrind
+```
+
+## Run-Code
+
+For example when we run test1 
+
+```bash
+./BasicCheck.sh /home/omer/Desktop/script-bash-debug/tests/test1 main.exe
+```
+We will get
+
+```bash
+  Compilation   Memory leaks   thread race
+     PASS            FAIL           PASS
+```
+Here we see a Memory-leak detection.
+
+## Our mentor
+
+[Erel Segal-Halevi](https://github.com/erelsgl/ariel-cpp-5779) 
+

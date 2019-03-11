@@ -1,8 +1,10 @@
 #!/bin/bash
 folderName=$1
 exeFile=$2
-input=$3
-current=`pwd`
+shift 
+shift 
+input=$@
+currentPath=`pwd`
 
 
 cd $folderName
@@ -13,7 +15,7 @@ if [[ $returnVal -gt 0 ]]; then
 	echo  "    FAIL            FAIL             FAIL"
         exit 7
 else
-	valgrind --leak-check=full --error-exitcode=3 --log-file=/dev/null ./$exeFile <<< $input >> /dev/null 
+	valgrind --leak-check=full --error-exitcode=3 --log-file=/dev/null ./$exeFile <<< $input >> /dev/null
 	returnVal=$?
 
 
@@ -23,7 +25,7 @@ else
        		leaks=1
 	fi
 
-	valgrind --tool=helgrind --error-exitcode=3 --log-file=/dev/null ./$exeFile <<< $input >> /dev/null 
+	valgrind --tool=helgrind --error-exitcode=3 --log-file=/dev/null ./$exeFile <<< $input >> /dev/null
 	returnVal=$?
 
 
@@ -55,7 +57,7 @@ else
 		
 fi
 
-cd $current
+cd $currentPath
 
 
 
