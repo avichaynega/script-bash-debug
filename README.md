@@ -1,10 +1,16 @@
 # Script-bash-debug
 
-A short script in the BASH language and some tools to help with DEBUG and finding memory leakage
+A short script in the BASH language and some tools to help 
+with DEBUG and finding memory leakage.
 
 ## Usage
 
-As you know unlike JAVA for C ++, there is no built-in garbage collector. The programmer is the one to clear the memory after the end of use. Luckily there is a tool on linux that helps us find memory leakage and can tell exactly where the leakage happened or whether we went to an unallocated place in memory. The tool is called valgrind. You can type in the GNU: 
+As you know unlike JAVA for C ++, there is no built-in garbage 
+collector. The programmer is the one to clear the memory after 
+the end of use. Luckily there is a tool on linux that helps us 
+find memory leakage and can tell exactly where the leakage 
+happened or whether we went to an unallocated place in memory. 
+The tool is called valgrind. You can type in the GNU: 
 
 ```bash
 man valgrind
