@@ -1,13 +1,17 @@
 # Script-bash-debug
 
-In this task, we wrote a short script in the backgammon and learned to recognize tools that helped us in DEBUG and to find a memory leak.
+A short script in the BASH language and some tools to help with DEBUG and finding memory leakage
 
 ## Usage
 
-We were asked this task unlike the JAVA course, where C ++ does not have a built-in garbage collection. 
-So the programmer is the one who needs to clear the memory after use.
-And with the help of a Linux tool that helps to find memory leakage we have been able to know exactly where a leak occurred or whether we went to an undefined place.
-The tool is called [valgrind](https://en.wikipedia.org/wiki/Valgrind)
+As you know, unlike JAVA for C ++, there is no built-in garbage collector. The programmer is the one to clear the memory after the end of use. Luckily there is a tool on linux that helps us find memory leakage and can tell exactly where the leakage happened or whether we went to an unallocated place in memory. The tool is called valgrind. You can type in the GNU: 
+
+```bash
+man valgrind
+```
+and get information about this tool also you can read in this link :
+
+[valgrind](https://en.wikipedia.org/wiki/Valgrind)
 
 ## Installation
 
@@ -22,7 +26,7 @@ sudo apt-get install valgrind
 the format to run the script:
 
 ```bash
-$BasicCheck.sh <dir path> <program> <arguments if needed>
+BasicCheck.sh <dir path> <program> <arguments if needed>
 ```
 
 For example when we run test1 
