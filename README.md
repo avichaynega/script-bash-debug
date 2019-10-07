@@ -17,13 +17,13 @@ and get information about this tool also you can read in this link :
 
 How to install Valgrind:
 
-Debian based linux OS:
+Debian :
 
 ```bash
 sudo apt-get install valgrind
 ```
 
-ARCH based linux OS:
+Arch linux:
 
 ```bash
 sudo pacman -S valgrind
