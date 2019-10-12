@@ -46,7 +46,7 @@ BasicCheck.sh  <dir path>  <program>  <arguments if needed>
 For example when we run test1 
 
 ```bash
-./BasicCheck.sh  /home/usrname/folder  test_file.exe
+./BasicCheck.sh  /home/usrname/script-bash-debug/tests/test1  test_file.exe
 ```
 We will get
 
