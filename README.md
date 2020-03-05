@@ -1,3 +1,6 @@
+### Authors: 
+Avichay Nega,[Oren Zauda](https://github.com/OrenZauda),[Omer Hadida](https://github.com/2MarShmello2), 
+
 # Script-bash-debug
 
 A short script in the BASH language and some tools to help 
