@@ -38,7 +38,7 @@ Arch linux:
 sudo pacman -S valgrind
 ```
 
-## Run-Code
+## Run-Code examples
 
 the format to run the script:
 
@@ -46,12 +46,12 @@ the format to run the script:
 BasicCheck.sh  <dir path>  <program>  <arguments if needed>
 ```
 
-For example when we run test1 
+For example when we run test1:
 
 ```bash
 ./BasicCheck.sh  /home/usrname/script-bash-debug/tests/test1  test_file.exe
 ```
-We will get
+We will get:
 
 ```bash
   Compilation   Memory leaks   thread race
