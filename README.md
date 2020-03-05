@@ -18,7 +18,7 @@ The tool is called valgrind. You can type in the GNU:
 ```bash
 man valgrind
 ```
-and get information about this tool also you can read in this link :
+and get information about this tool,you can also read in this link :
 
 [valgrind](https://en.wikipedia.org/wiki/Valgrind)
 
