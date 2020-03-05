@@ -1,5 +1,5 @@
 ### Authors: 
-Avichay Nega,[Oren Zauda](https://github.com/OrenZauda),[Omer Hadida](https://github.com/2MarShmello2), 
+Avichay Nega, [Oren Zauda](https://github.com/OrenZauda), [Omer Hadida](https://github.com/2MarShmello2), 
 
 # Script-bash-debug
 
